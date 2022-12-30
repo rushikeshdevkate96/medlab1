@@ -1,0 +1,38 @@
+  
+
+
+GET Request
+https:localhost:3000/pincodeDetails?pincode=411041
+
+
+Response :
+[
+{ pincodedetails}
+]
+
+if no record:
+if blank then display message "we do not provide service to this area"
+else {
+   code details
+}
+
+https:localhost:3000/pincodeDetails?pincode={}
+
+HttpParams
+
+
+
+function add(num1,num2=10){
+  console.log(num1+num2);
+}
+
+add(20,30);
+
+
+
+-----------------
+Requirement:
+
+if pincode not available then dont call the top-deals
+if pincode available then call
+-------
