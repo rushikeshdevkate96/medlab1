@@ -12,7 +12,7 @@ export class MedicineHomeComponent implements OnInit {
   isPinCodeAvailable:boolean = false ;
    pincodeDetails:any;
 
-   @ViewChild('closeBtn',{read:ElementRef}) closeBtn!:ElementRef
+  @ViewChild('closeBtn',{read:ElementRef}) closeBtn!:ElementRef
   constructor(private http:HttpService) { }
 
   ngOnInit(): void {

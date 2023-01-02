@@ -13,6 +13,9 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
 import { TopDealsComponent } from './components/top-deals/top-deals.component';
 import { FormsModule } from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
+import { ViewProductDetailsComponent } from './components/view-product-details/view-product-details.component';
+import { ViewProductDetailsCategoryComponent } from './components/view-product-details-category/view-product-details-category.component';
+// import { ViewProductDetailsComponent } from './vie./components/view-product-details-category/view-product-details-category.component
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +24,10 @@ import {HttpClientModule} from '@angular/common/http';
     HomeComponent,
     PageNotFoundComponent,
     MedicineHomeComponent,
-    TopDealsComponent
+    TopDealsComponent,
+    ViewProductDetailsComponent,
+    ViewProductDetailsCategoryComponent
+        // ViewProductDetailsComponent
   ],
   imports: [
     BrowserModule,
